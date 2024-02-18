@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(45deg, #ffecb3, #ffb74d);
+            color: #880e4f;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 999;
+        }
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        nav {
+            background-color: rgba(255, 235, 59, 0.7); /* Açık sarı */
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center; /* Menü öğelerini ortala */
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #880e4f;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            padding: 5px 10px; /* Daha belirgin bir alan oluşturmak için */
+        }
+        
+        section {
+            padding: 50px 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            max-width: 600px; /* Bölüm genişliğini sınırla */
+            width: 100%; /* Bölüm genişliğini ayarla */
+            margin: 0 auto; /* Bölümü yatayda ortala */
+            margin-top: 170px; /* Navigasyon çubuğunun altından başla */
+        }
+        section#about, section#contact {
+            background-color: rgba(255, 235, 205, 0.9); /* Açık turuncu */
+            color: #880e4f; /* Koyu pembe */
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 10px; /* Boşluğu azalt */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        section p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        section a {
+            color: #0277bd; /* Mavi */
+            text-decoration: none;
+        }
+        section a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ceyda Altın</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I am Ceyda Altın. I am a 4th grade computer engineering student at AYBU. I am a software developer intern at Intertech for 3 months. I am currently learning .Net, React. I also enjoy developing mobile and desktop games.</p>
+        <p>Here is my profiles on <a href="https://www.linkedin.com/in/ceyda-alt%C4%B1n-730367225/">LinkedIn</a>, <a href="https://github.com/ceydaltn">GitHub</a> </a>.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me via email: <a href="mailto:ceydaaltin03@gmail.com">ceydaaltin03@gmail.com</a></p>
+    </section>
+
+</body>
+</html>
